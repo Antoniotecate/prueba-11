@@ -24,8 +24,10 @@
 
 <body>    
 
+	      
 
-  <style>
+
+      <style>
     .container {
       display: flex;
       align-items: center;
@@ -34,7 +36,7 @@
     .box {
       width: 500px;
       height: 200px;
-      background-color: #f0a500;
+      background-color: red;
       text-align: center;
       line-height: 200px;
       color: white;
@@ -104,41 +106,50 @@
 .cuadro a:hover {
   text-decoration: underline; /* Subrayar al pasar el ratón */
 }
-    </style>
-</head>
-<body>
-  <div class="container">
-    <div class="box">Juegos de mesa</div>
-    <img class="photo" src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\juegos de mesa.jpg" alt="Foto de ejemplo">
-  </div>
-
-<style>
         .centrado {
             text-align: center;
             font-weight: bold;
             font-size: 40px; /* Puedes ajustar el tamaño según tus necesidades */
         }
     </style>
+
+
+
+
+
+  <div class="container">
+    <div class="box">Juegos de mesa</div>
+    <img class="photo" src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\juegos de mesa.jpg" alt="Foto de ejemplo">
+  </div>
+
+
 	</head>
 <BODY BGCOLOR="SILVER" TEXT="BLACK">
 
+          <H1 class="centrado")>INTRODUCCION </H1> <BR>QUE SON? <BR>
 
+<TT> Un juego de mesa es una actividad de entretenimiento que se juega sobre una superficie plana, generalmente una mesa, utilizando piezas, fichas, cartas o tableros, y siguiendo reglas específicas. Estos juegos pueden ser de estrategia, azar, habilidad o cooperación, y han sido una forma popular de socialización a lo largo de la historia </TT>
+
+	
+
+    <div class="search-container">
+        <h1>Buscar juegos</h1>
+        <input type="text" id="searchQuery" placeholder="Escribe tu búsqueda...">
+        <button onclick="search()">Buscar</button>
     </div>
 
     <script>
         function search() {
             const query = document.getElementById('searchQuery').value;
             if (query) {
-                const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+                const url = `}`;
                 window.open(url, '_blank');
             } else {
                 alert('Por favor, escribe algo para buscar.');
             }
         }
     </script>
-</body>
-
-  <style>
+	  <style>
     .container {
       display: flex;
       justify-content: space-between; /* Espaciado uniforme entre cuadros */
@@ -157,76 +168,55 @@
       border-radius: 8px; /* Bordes redondeados */
       font-size: 35px;
     }
-  </style>
-</head>
+        .encabezado-rojo {
+            color: red;
+        }
+  </style>				
 
-<body>
-
-
-</head>
-<body>
   </div>
   <div class="container">
- 
- <img class="photo" src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\monopoly.jpg" alt="Foto de ejemplo">
+  <div class="cuadro cuadro-rojo">
+    <h2>Monopoly</h2>
+    <a href="https://raw.githubusercontent.com/Antoniotecate/prueba10/refs/heads/main/Practica%203%20%20juego%201.HTML">Enlace</a>
+  </div>
 
-   <div class="anuncio">
+  <div class="cuadro cuadro-verde">
+    <h2>Calabozos y Dragones</h2>
+    <a href="file:///C:/Users/antonio/OneDrive/Pictures/Documents/Pactica%20tix/Practica%203%20%20juego%202.HTML">Enlace </a>
+  </div>
+
+  <div class="cuadro cuadro-azul">
+    <h2>Serpientes y escaleras</h2>
+    <a href="file:///C:/Users/antonio/OneDrive/Pictures/Documents/Pactica%20tix/Practica%203%20%20juego%203.HTML">Enlace</a>
+  </div>
+
+  <div class="cuadro cuadro-amarillo">
+    <h2>Ajedrez</h2>
+    <a href="file:///C:/Users/antonio/OneDrive/Pictures/Documents/Pactica%20tix/Practica%203%20%20juego%204.HTML">Enlace </a>
+  </div>
+
+  </div>
+
+    <div class="anuncio">
         <img src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\Uno no mercy.jpg" alt="Producto">
         <h1>¡Oferta Especial!</h1>
         <p>Compra ahora y obtén un 20% de descuento en todos nuestros productos. ¡No te lo pierdas!</p>
         <a href="#">Comprar Ahora</a>
-  </div>
-
-  <div class="cuadro cuadro-azul">
-    <h2>Origen del Juego</h2>
-    <a href="https://es.wikipedia.org/wiki/Historia_del_Monopoly">Enlace</a>
-  </div>
-  </div>
-  <style>
-    .cuadro-texto {
-      width: 700px; /* Ancho del cuadro */
-      height: 150px; /* Alto del cuadro */
-      border: 2px solid #4CAF50; /* Color y grosor del borde */
-      padding: 10px; /* Espaciado interno */
-      overflow-y: scroll; /* Barra de desplazamiento vertical */
-      background-color: #f9f9f9; /* Color de fondo */
-      border-radius: 5px; /* Bordes redondeados (opcional) */
-    }
-  </style>
- <h3>Reglas del juego Monopoly</h3>
-  <div class="cuadro-texto">
- •  Inicio del juego: Cada jugador recibe una cantidad inicial de dinero y elige una ficha. Se decide quién empieza lanzando los dados.
-•  Movimiento: Los jugadores avanzan por el tablero según el número obtenido en los dados.
-•  Compra de propiedades: Si caes en una propiedad sin dueño, puedes comprarla. Si decides no hacerlo, se subasta entre los demás jugadores.
-•  Alquiler: Si caes en una propiedad de otro jugador, debes pagarle el alquiler correspondiente.
-•  Construcción: Puedes edificar casas y hoteles en tus propiedades para aumentar el alquiler que cobras.
-•  Cartas de Suerte y Caja de Comunidad: Pueden otorgarte beneficios o penalizaciones.
-•  Ir a la cárcel: Puedes ir a la cárcel si caes en la casilla correspondiente, sacas tres dobles seguidos o recibes una carta que te envíe allí.
-•  Banca rota: Si un jugador no puede pagar sus deudas, debe hipotecar propiedades o declararse en bancarrota.
-•  Fin del juego: Gana el último jugador que quede con dinero cuando los demás hayan quebrado.
-
-  </div>
 
 
   <div class="cuadro cuadro-salmon">
-    <h2>Inicio</h2>
-    <a href="file:///C:/Users/antonio/OneDrive/Pictures/Documents/Pactica%20tix/index.HTLM.HTML">Enlace</a>
+    <h2>Juejos modernos</h2>
+    <a href="">Enlace</a>
   </div>
 
   <div class="cuadro cuadro-olivo">
-    <h2>Comprar juego</h2>
-    <a href="https://www.ebay.com/itm/187233027535?chn=ps&norover=1&mkevt=1&mkrid=711-170539-829218-7&mkcid=2&itemid=187233027535&targetid=4580221859120578&device=c&mktype=&googleloc=&poi=&campaignid=484389146&mkgroupid=1225956503607137&rlsatarget=pla-4580221859120578&abcId=9402330&merchantid=3496964&msclkid=f0238ee4bdb5170244d3e6d61de08bdd">Enlace </a>
+    <h2>Juegos clasicos</h2>
+    <a href="">Enlace </a>
   </div>
 
-
-
-       
-    <!-- Javascript -->          
-    <script src="assets/plugins/popper.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
-    <script src="assets/plugins/smoothscroll.min.js"></script> 
-    
-    <script src="assets/js/main.js"></script>
+<h1 class="encabezado-rojo">Elaboro: Antonio Camacho Gonzalez</h1>
+ 
+  </div>
 
 </body>
 </html> 
